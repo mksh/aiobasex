@@ -1,0 +1,12 @@
+version: '2'
+services:
+  test:
+    build: .
+    depends_on:
+      - basex.docker
+
+  basex.docker:
+    build: docker/basex
+    expose:
+      - "1984"
+      - "8984"
