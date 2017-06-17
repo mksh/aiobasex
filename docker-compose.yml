@@ -1,7 +1,15 @@
 version: '2'
 services:
-  test:
-    build: .
+  test35:
+    build:
+      context: .
+      dockerfile: docker/test_py35/Dockerfile
+    depends_on:
+      - basex.docker
+  test36:
+    build:
+      context: .
+      dockerfile: docker/test_py36/Dockerfile
     depends_on:
       - basex.docker
 

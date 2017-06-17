@@ -59,7 +59,6 @@ to run the test suite.
 #### TODO
 
 - connection pooling
-- test coverage for pythons 3.4 and 3.6
 - implement API for `FULL`, `INFO` and `OPTIONS`
 - rtfd entry
 - 100% test coverage, incl. negative everywhere

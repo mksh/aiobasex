@@ -31,12 +31,10 @@ args = dict(
         'Development Status :: 4 - Beta',
         'Operating System :: POSIX',
         'Topic :: Database'
-        'Topic :: Text Processing :: Markup :: XML',
-        'Framework :: AsyncIO',
     ],
     author='Summer Babe',
     author_email='mksh@null.net',
-    url='https://github.com/Intel471/prom-stats/',
+    url='https://github.com/mksh/aiobasex/',
     packages=['aiobasex'],
     license='MIT',
     cmdclass={'test': TestSuite},

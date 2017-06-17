@@ -1,6 +1,5 @@
 test:
-	docker-compose build test
-	docker-compose run test
+	tox
 
 clean:
 	find . -type f -name "*.py[co]" -delete
